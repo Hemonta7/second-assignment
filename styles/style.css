@@ -242,62 +242,169 @@
     margin-top: 25px;
     margin-bottom: 48px;
 }
-.card-container{
-display: flex;
-justify-content: center;
-gap: 24px;
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
 }
-.card-1{
+
+.card-1 {
     border-radius: 16px;
-border: 1px solid rgba(251, 181, 99, 0.20);
-background: rgba(251, 181, 99, 0.05);
-width: 545px;
-height: 284px;
-margin-bottom: 24px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    width: 545px;
+    height: 284px;
+    margin-bottom: 24px;
 }
-.card-3{
-margin:0 auto;
-margin-bottom: 100px;
-border-radius: 16px;
-border: 1px solid rgba(251, 181, 99, 0.20);
-background: rgba(251, 181, 99, 0.05);
-width: 545px;
-height: 284px;
+
+.card-3 {
+    margin: 0 auto;
+    margin-bottom: 100px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    width: 545px;
+    height: 284px;
 }
-.card-box >div h4, .card-text{
+
+.card-box>div h4,
+.card-text {
     color: #131318;
-font-size: 24px;
-font-weight: 800;
-margin: 100px 300px 0px 32px;
+    font-size: 24px;
+    font-weight: 800;
+    /* padding: 100px 300px 0px 32px; */
+    padding: 32px 320px 0px 32px;
 }
-.card-box >div p, .card-paragraph{
+
+.card-box>div p,
+.card-paragraph {
     color: #5A5A5D;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-margin: 15px 55px 32px 32px;
+    font-size: 16px;
+    font-weight: 400;
+    /* margin: 15px 55px 0px 32px; */
+    padding: 10px 55px 32px 32px;
 }
+
 /* newsletter section  */
-.newsletter-container{
+.newsletter-container {
     display: flex;
     justify-content: center;
     gap: 20px;
 }
-.newsletter-text-container{
+
+.newsletter-text-container {
     border-radius: 16px;
     border: 1px solid #FF5400;
     width: 474px;
-height: 422px;
-margin-bottom: 100px;
+    height: 422px;
+    margin-bottom: 100px;
 }
-.newsletter-photo-container{
-position: relative;
+
+.newsletter-text-container h4 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 40px 308px 10px 40px;
 }
-.square{
+
+.newsletter-text-container p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0px 84px 24px 40px;
+}
+
+.newsletter-photo-container {
+    position: relative;
+}
+
+.input-1 {
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    padding: 16px 167px 16px 20px;
+    border: none;
+    margin: 24px 20px 0px 40px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.input-2 {
+    border-radius: 8px;
+    background: #FF5400;
+    padding: 13px 147px;
+    border: none;
+    margin: 24px 20px 16px 40px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.square {
     border-radius: 16px;
-background: #FF5400;
-width: 324px;
-height: 120px;
-transform: rotate(-19.628deg);
-position: absolute;
+    background: #FF5400;
+    width: 300px;
+    height: 90px;
+    transform: rotate(-19.628deg);
+    text-align: center;
+    padding: 15px 10px;
+    position: absolute;
+}
+
+.square h4 {
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.square h3 {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 800;
+}
+/* footer section  */
+.footer-container{
+height: 502px;
+background: rgba(19, 19, 24, 0.05);
+}
+.footer-img{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.footer-img img{
+    height: 100%;
+    padding-top: 108px;
+}
+.footer-text{
+    color: #131318;
+font-size: 32px;
+font-weight: 800;
+text-align: center;
+padding-top: 110px;
+}
+.footer-paragraph{
+    color: #5A5A5D;
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+margin-top: 15px;
+margin-bottom: 32px;
+}
+.footer-icon{
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 50px;
+}
+.fa-brands{
+    margin-right: 15px;
+}
+.footer-paragraph-end{
+text-align: center;
+color: #131318;
+font-size: 16px;
+font-weight: 300;
+margin-top: 50px;
+margin-bottom: 100px;
 }
