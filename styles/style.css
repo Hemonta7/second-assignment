@@ -95,7 +95,8 @@
     padding: 0px 16px;
     color: #13131880;
 }
-.primary-box-color{
+
+.primary-box-color {
     background: #FF5400;
     color: #FFF;
     width: 174px;
@@ -103,4 +104,41 @@
     border-radius: 8px;
     border: none;
     padding: 0px 16px;
+
 }
+
+/* middle text and photo styles */
+.middle-container {
+    display: flex;
+    margin: 100px;
+}
+
+.middle-text h3 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.middle-text p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 24px;
+    margin-right: 53px;
+}
+.middle-text >ul li{
+    color: rgba(19, 19, 24, 0.70);
+font-size: 16px;
+font-weight: 400;
+width: 525px;
+margin-right: 105px;
+margin-top: 25px;
+}
+.middle-btn{
+font-size: 18px;
+font-weight: 700;
+padding: 14px 30px;
+margin-top: 46px;
+}
+/* photo grid section  */
