@@ -127,18 +127,177 @@
     margin-top: 24px;
     margin-right: 53px;
 }
-.middle-text >ul li{
+
+.middle-text>ul li {
     color: rgba(19, 19, 24, 0.70);
-font-size: 16px;
-font-weight: 400;
-width: 525px;
-margin-right: 105px;
-margin-top: 25px;
+    font-size: 16px;
+    font-weight: 400;
+    width: 525px;
+    margin-right: 105px;
+    margin-top: 25px;
 }
-.middle-btn{
-font-size: 18px;
-font-weight: 700;
-padding: 14px 30px;
-margin-top: 46px;
+
+.middle-btn {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 14px 30px;
+    margin-top: 46px;
 }
+
 /* photo grid section  */
+.photo-container-text h3 {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.photo-container-text p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+
+.photo-container {
+    margin: 0px 135px 100px 135px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.photo-container div {
+    min-height: 300px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.image-1 {
+    background-image: url(../Images/Rectangle\ 5.png);
+    grid-column: 1/span 6;
+    grid-row: 1/span 1;
+    /* text-align: center; */
+}
+
+.image-2 {
+    background-image: url(../Images/Rectangle\ 8.png);
+    grid-column: 7/span 6;
+    grid-row: 1/span 1;
+}
+
+.image-3 {
+    background-image: url(../Images/Rectangle\ 6.png);
+    grid-column: 1/span 4;
+    grid-row: 2/span 1;
+}
+
+.image-4 {
+    background-image: url(../Images/Rectangle\ 7.png);
+    grid-column: 5/span 5;
+    grid-row: 2/span 1;
+}
+
+.image-5 {
+    background-image: url(../Images/Rectangle\ 9.png);
+    grid-column: 10/span 3;
+    grid-row: 2/span 1;
+}
+
+.image-6 {
+    background-image: url(../Images/Rectangle\ 11.png);
+    grid-column: 1/span 5;
+
+}
+
+.image-7 {
+    background-image: url(../Images/Rectangle\ 10.png);
+    grid-column: 6/span 7;
+
+}
+
+/* cart section styles */
+.card-box h3 {
+    text-align: center;
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.card-box p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-bottom: 48px;
+}
+.card-container{
+display: flex;
+justify-content: center;
+gap: 24px;
+}
+.card-1{
+    border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+width: 545px;
+height: 284px;
+margin-bottom: 24px;
+}
+.card-3{
+margin:0 auto;
+margin-bottom: 100px;
+border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+width: 545px;
+height: 284px;
+}
+.card-box >div h4, .card-text{
+    color: #131318;
+font-size: 24px;
+font-weight: 800;
+margin: 100px 300px 0px 32px;
+}
+.card-box >div p, .card-paragraph{
+    color: #5A5A5D;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+margin: 15px 55px 32px 32px;
+}
+/* newsletter section  */
+.newsletter-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.newsletter-text-container{
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    width: 474px;
+height: 422px;
+margin-bottom: 100px;
+}
+.newsletter-photo-container{
+position: relative;
+}
+.square{
+    border-radius: 16px;
+background: #FF5400;
+width: 324px;
+height: 120px;
+transform: rotate(-19.628deg);
+position: absolute;
+}
