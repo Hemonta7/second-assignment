@@ -97,111 +97,141 @@
         font-weight: 800;
         margin-right: 0px;
     }
+
     .photo-container {
-        margin: 0px 135px 100px 100px;
+        margin: 0px 25px 25px;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        /* grid-template-rows: repeat(1, 1fr); */
+        grid-template-rows: repeat(7, 1fr);
         gap: 24px;
         overflow: hidden;
     }
+
     .image-1 {
         background-image: url(../Images/Rectangle\ 5.png);
-        grid-column: 1/span 12;
-        /* grid-row: 1/span 12; */
+        grid-column: 1/span 1;
+        grid-row: 1/span 1;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
     }
-    
+
     .image-2 {
         background-image: url(../Images/Rectangle\ 8.png);
-        grid-column: 1/span 12;
-        /* grid-row: 1/span 12; */
+        grid-column: 1/span 1;
+        grid-row: 2/span 1;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
     }
-    
+
     .image-3 {
         background-image: url(../Images/Rectangle\ 6.png);
-        grid-column: 1/span 12;
-        /* grid-row: 1/span 12; */
+        grid-column: 1/span 1;
+        grid-row: 3/span 1;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
     }
-    
+
     .image-4 {
         background-image: url(../Images/Rectangle\ 7.png);
-        grid-column: 1/span 12;
-        /* grid-row: 1/span 12; */
+        grid-column: 1/span 1;
+        grid-row: 4/span 1;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
     }
-    
+
     .image-5 {
         background-image: url(../Images/Rectangle\ 9.png);
-        grid-column: 1/span 12;
-        /* grid-row: 1/span 12; */
+        grid-column: 1/span 1;
+        grid-row: 5/span 1;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
     }
-    
+
     .image-6 {
         background-image: url(../Images/Rectangle\ 11.png);
-        grid-column: 1/span 12;
-        /* grid-row: 1/span 12; */
+        grid-column: 1/span 1;
+        grid-row: 6/span 1;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
     }
-    
+
     .image-7 {
         background-image: url(../Images/Rectangle\ 10.png);
-        grid-column: 1/span 12;
-        /* grid-row: 1/span 12; */
+        grid-column: 1/span 1;
+        grid-row: 7/span 1;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
     }
-    
-    .extra-section-container{
+
+    .extra-section-container {
         flex-direction: column;
         /* justify-content: center; */
         align-items: center;
     }
+
     .extra-section-text>h4 {
         font-size: 18px;
         margin-top: 0px;
         margin-bottom: 15px;
     }
-    
+
     .extra-section-text>h3 {
         font-size: 25px;
         margin-bottom: 15px;
         padding: 0px 20px;
         line-height: 3rem;
     }
-    
+
     .extra-section-text>p {
         font-size: 16px;
         margin: 18px 100px 40px 100px;
     }
+
     .card-box h3 {
         font-size: 25px;
     }
-    
+
     .card-box p {
         font-size: 14px;
         margin-top: 25px;
         margin-bottom: 48px;
         padding: 0 30px;
     }
-    
+
     .card-container {
         display: flex;
         justify-content: center;
-    align-items: center;
+        align-items: center;
         flex-direction: column;
     }
+
     .newsletter-container {
         flex-direction: column;
         align-items: center;
     }
-    .newsletter-photo-container{
+
+    .newsletter-photo-container {
         width: 474px;
         height: 400px;
         margin-bottom: 23px;
     }
-    .newsletter-photo-container img{
+
+    .newsletter-photo-container img {
         width: 100%;
-        height:100%
+        height: 100%
     }
-    .newsletter-text-container{
+
+    .newsletter-text-container {
         margin-bottom: 0;
     }
+
     .square {
         width: 300px;
         height: 90px;
@@ -209,6 +239,7 @@
         bottom: 48px;
         right: 7px;
     }
+
     .footer-paragraph {
         color: #5A5A5D;
         text-align: center;
@@ -218,6 +249,3 @@
         margin-bottom: 32px;
     }
 }
-
-/* responsive layout for dekstop/laptop devices */
-@media screen and (min-width:992px) {}
